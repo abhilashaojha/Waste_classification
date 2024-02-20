@@ -68,6 +68,16 @@ The best weights of the model are saved in a file named waste_model.h5. These we
 ## Output
 The model training script will output information about the training process, including accuracy and loss metrics. Additionally, the prediction script will display the predicted waste category for a given image.
 
+## Improvements
+This repository is still under development. Further enhancements include: 
+* Continuous model improvement through regular updates and fine-tuning based on feedback and new data.
+* Integration with existing waste management systems, development of user-friendly interfaces, and providing training to personnel for enhancing the model's usability and adoption.
+* Collaboration with stakeholders, such as regulatory bodies and recycling facilities
+
+## Conclusion
+
+The project aims to provide a practical solution for automating waste classification, thereby improving efficiency, reducing contamination, and promoting environmentally sustainable waste management practices.
+
 ## Author
 * Abhilasha Ojha
 
