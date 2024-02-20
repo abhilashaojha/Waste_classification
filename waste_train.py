@@ -15,6 +15,7 @@ DATASET_PATH = 'D:/Desktop/waste_classification/imgs/'
 TRAIN_PATH = os.path.join(DATASET_PATH)
 
 # Image data augmentation
+#'train_datagen' is configured to perform image rescaling, shearing, zooming, and horizontal flipping.
 train_datagen = ImageDataGenerator(
     rescale=1./255,
     shear_range=0.2,
@@ -22,6 +23,7 @@ train_datagen = ImageDataGenerator(
     horizontal_flip=True
 )
 
+#The 'flow_from_directory' method then generates batches of augmented images on-the-fly during training.
 train_generator = train_datagen.flow_from_directory(
     TRAIN_PATH,
     target_size=IMAGE_SIZE,
